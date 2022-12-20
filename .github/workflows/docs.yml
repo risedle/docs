@@ -27,11 +27,7 @@ jobs:
         run: pnpm install
       - name: 💄 Run Prettier
         run: pnpm prettier:check
-      # - name: 🧹 Run ESLint
-      #   run: pnpm lint
-      # - name: ⚒️  Build source code
-      #   run: pnpm build
-      # - name: ✅ Test
-      #   run: pnpm test
+      - name: 🧹 Run Next Lint
+        run: pnpm lint
       - name: ✅ All good
         run: echo "✅ All good" >> $GITHUB_STEP_SUMMARY
