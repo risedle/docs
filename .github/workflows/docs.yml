@@ -29,8 +29,8 @@ jobs:
         run: pnpm prettier:check
       # - name: 🧹 Run ESLint
       #   run: pnpm lint
-      - name: ⚒️  Build source code
-        run: pnpm build
+      # - name: ⚒️  Build source code
+      #   run: pnpm build
       # - name: ✅ Test
       #   run: pnpm test
       - name: ✅ All good
